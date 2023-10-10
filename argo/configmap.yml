@@ -1,0 +1,7 @@
+apiVersion: 1
+kind: ConfigMap
+metadata:
+  name: nginx-index
+data:
+  <h1>Hello</h1>
+
