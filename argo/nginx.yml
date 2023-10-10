@@ -18,7 +18,6 @@ spec:
         volumeMounts:
         - name: index
           mountPath: "/usr/share/nginx/html/index.html"
-          readOnly: true
         ports:
         - containerPort: 80
       volumes:
