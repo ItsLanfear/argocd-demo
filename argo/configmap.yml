@@ -3,5 +3,6 @@ kind: ConfigMap
 metadata:
   name: nginx-index
 data:
-  <h1>Hello</h1>
+  index.html: |
+    <h1>Hello</h1>
 
